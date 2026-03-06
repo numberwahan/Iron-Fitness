@@ -19,7 +19,7 @@ export default function SignInPage() {
             borderRadius: "0.75rem",
           },
         }}
-        afterSignInUrl="/plan"
+        fallbackRedirectUrl="/plan"
         signUpUrl="/sign-up"
       />
     </div>

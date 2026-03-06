@@ -19,7 +19,7 @@ export default function SignUpPage() {
             borderRadius: "0.75rem",
           },
         }}
-        afterSignUpUrl="/onboarding"
+        fallbackRedirectUrl="/onboarding"
         signInUrl="/sign-in"
       />
     </div>
