@@ -67,7 +67,6 @@ export function NavClient() {
               {appLinks}
               {isSignedIn ? (
                 <UserButton
-                  afterSignOutUrl="/"
                   appearance={{
                     elements: {
                       avatarBox: "h-8 w-8",
