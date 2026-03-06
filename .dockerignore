@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules
+.next
+out
+build
+
+# Git and env (secrets go in Cloud Run config, not image)
+.git
+.gitignore
+.env*
+!.env.example
+
+# IDE and misc
+.DS_Store
+*.md
+!README.md
+
+# Tests and dev
+coverage
+*.test.*
+*.spec.*
+jest.config.*
+.eslint*
