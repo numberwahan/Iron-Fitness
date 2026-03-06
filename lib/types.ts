@@ -26,6 +26,7 @@ export type MuscleGroup =
   | "hamstrings"
   | "glutes"
   | "calves"
+  | "legs"
   | "core"
   | "full_body"
   | "cardio";
